@@ -1,5 +1,5 @@
 import { createContext, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import img1 from "./assets/cardimage/Group 1000002466.png"

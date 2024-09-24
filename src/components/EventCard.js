@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, Typography, Button, CardMedia, Box } from '@mui/material';
+import { Card, CardContent, Typography, Button, CardMedia } from '@mui/material';
 
 
 const EventCard = ({ imageUrl, status, title, date, buttonText}) => {
