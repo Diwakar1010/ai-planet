@@ -1,38 +1,273 @@
-.App {
+.logo {
+  position: relative;
+  width: 87px;
+  height: 38.11px;
+  top: 13px;
+  left: 89px;
+
+}
+
+.list-page {
+  width: 1442px;
+  height: 625px;
+  position: relative;
+  top: 4px;
+  left: -1px;
+  background: #003145;
+}
+
+.vertical-bar {
+  width: 9.71px;
+  height: 115.91px;
+  position: absolute;
+  top: 188px;
+  left: 143px;
+  background: #FFCE5C;
+}
+
+.p-1 {
+  width: 643px;
+  height: 112px;
+  position: absolute;
+  top: 190px;
+  left: 205px;
+
+}
+
+.p-1 p {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+
+.p-2 {
+  width: 531px;
+  height: 112px;
+  top: 340px;
+  left: 205px;
+  position: absolute;
+
+}
+
+
+.p-2 p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+
+.create-btn {
+  width: 198px;
+  height: 47px;
+  position: absolute;
+  top: 489px;
+  left: 205px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+
+
+.create-btn span {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 18px;
   text-align: center;
+  color: #003145;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rock-logo {
+  width: 242px;
+  height: 294px;
+  top: 170px;
+  left: 1050.34px;
+  position: absolute;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer {
+  width: 1441px;
+  height: 200px;
+  position: absolute;
+  top: 625px;
+  left: -1px;
+  background: #002A3B;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.footer-item {
+  /* display: flex; */
+  position: absolute;
+  width: 1075px;
+  height: 55px;
+  top: 75px;
+  left: 183px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.p-3 {
+  display: grid;
+  margin: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.obj-class {
+  display: flex;
+}
+
+
+.count {
+  margin: 0px;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+
+}
+
+.descp {
+  margin: 0px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+
+.card-section {
+  position: relative;
+  width: 1439px;
+  height: 902px;
+  top: 182px;
+}
+
+.card-section h1 {
+  text-align: center;
+  padding: 80px
+}
+
+.card-section h1 span {
+  color: #0FA958;
+}
+
+.card-section .cards {
+  display: grid;
+  width: 1119px;
+  height: 593px;
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+
+.grid-card-items {
+  width: 542px;
+  height: 276px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  opacity: 1;
+}
+
+
+.card-content {
+  margin: 50px;
+}
+
+.card-content h3 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin: 0px;
+}
+
+.card-content p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin: 0px;
+  color: #64607D;
+}
+
+
+.filter-page {
+  position: relative;
+  width: 1440px;
+  height: 324px;
+  top: 182px;
+  background: #002A3B;
+}
+
+.filter-page h1 {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 40px;
+}
+
+.filter-page input {
+  width: 829px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 238px;
+  border-radius: 12px;
+}
+
+.filter-page input::placeholder {
+  color: #888;
+  padding: 50px;
+}
+
+
+.challenge-cards {
+  width: 1440px;
+  height: 1196px;
+  position: absolute;
+  top: 2135px;
+  background: #003145;
+}
+
+
+.drop-down {
+  width: 110px;
+  height: 50px;
+  position: absolute;
+  top: 150px;
+  left: 1092px;
+  border-radius: 20px ;
+  margin: 4px;
+}
+
+.drop-down.expanded{
+  width: 290px;
+height: 394px;
+  z-index: 5;
+  border-radius: 20px ;
 }
